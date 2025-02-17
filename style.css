@@ -216,7 +216,6 @@ p {
 .purchase {
   color: white;
   background-color: black;
-  border: 1px solid black;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -269,4 +268,46 @@ p {
   margin-top: 125px;
   text-align: center;
   font-size: 17px;
+}
+
+
+
+.Reviews-boxes{
+  padding: 92px;
+  background-color:#f8f6f3 ;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 55px;
+}
+.box5{
+  box-shadow: 0 0 3px #e9dddd;
+background-color: white;
+  height: 330px;
+  width: 344px;
+  border-radius: 8px;
+}
+.star{
+  margin-top: 62px;
+  display: flex;
+  justify-content: center;
+}
+.star img{
+  height: 22px;
+  width: 22px;
+}
+.box5 p{
+  margin-top: 36px;
+  padding: 0px 29px;
+}
+
+.flex{
+  margin-top: 22px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+.flex p{
+  margin-top: 21px;
 }
