@@ -11,7 +11,7 @@
 
 /* navbar  */
 .header {
- box-shadow:  0 0 12px #efebeb;
+  box-shadow: 0 0 12px #efebeb;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -108,7 +108,7 @@
   gap: 22px;
   align-items: center;
   justify-content: center;
-  padding: 33px;
+  padding: 52px;
 }
 .box1 {
   border-radius: 3px;
@@ -157,4 +157,58 @@
 h4,
 p {
   text-align: center;
+}
+
+.Main-vegetable {
+  background-color: #f8f6f3;
+  margin-top: 84px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  /* gap: 96px; */
+}
+/* Leaf image */
+
+.image img {
+  max-width: 125px;
+  position: absolute;
+  height: 51px;
+  margin-left: 519px;
+  margin-top: -24px;
+}
+.box3 {
+  background-color: white;
+  margin-top: 213px;
+  border-radius: 4px;
+  height: 336px;
+  width: 374px;
+  margin-left: 29px;
+  padding: 49px;
+}
+
+.box3 p {
+  color: #505050;
+  margin-top: 10px;
+  text-align: justify;
+  line-height: 22px;
+  font-size: 18px;
+}
+.box3 span {
+  padding: 11px 22px;
+  background-color: #8bc34a;
+  color: white;
+  /* font-weight: 600; */
+  line-height: 76px;
+  border-radius: 3px;
+}
+.box3 svg {
+  height: 11px;
+  width: 14px;
+}
+.box3 img {
+  height: 231px;
+  width: 252px;
+  margin-top: -46px;
+  margin-left: 74px;
 }
