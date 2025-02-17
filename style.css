@@ -181,7 +181,7 @@ p {
   background-color: white;
   margin-top: 213px;
   border-radius: 4px;
-  height: 336px;
+  height: 368px;
   width: 374px;
   margin-left: 29px;
   padding: 49px;
@@ -196,7 +196,7 @@ p {
 }
 .box3 span {
   padding: 11px 22px;
-  background-color: #8bc34a;
+  background-color: #6a9739;
   color: white;
   /* font-weight: 600; */
   line-height: 76px;
@@ -211,4 +211,54 @@ p {
   width: 252px;
   margin-top: -46px;
   margin-left: 74px;
+}
+
+.purchase {
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 484px;
+  align-items: center;
+  padding: 39px;
+}
+.purchase span {
+  background-color: #6a9739;
+  padding: 11px 32px;
+  border-radius: 4px;
+}
+.Try {
+  background-color: #f8f6f3;
+  padding: 24px;
+}
+.Try h2 {
+  margin-top: 32px;
+  text-align: center;
+}
+
+.Trendingproduct {
+  line-height: 55px;
+  margin-top: 125px;
+  text-align: center;
+  font-size: 17px;
+}
+
+.boxes-Trending {
+  display: flex;
+  flex-direction: row;
+  gap: 23px;
+  justify-content: center;
+}
+.box4 {
+  padding: 8px;
+
+  height: 435px;
+  width: 318px;
+}
+.box4 p,
+h4,
+p {
+  text-align: center;
 }
