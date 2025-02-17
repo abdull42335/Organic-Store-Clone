@@ -262,3 +262,11 @@ h4,
 p {
   text-align: center;
 }
+
+
+.Customer-Reviews{
+  line-height: 55px;
+  margin-top: 125px;
+  text-align: center;
+  font-size: 17px;
+}
