@@ -262,41 +262,38 @@ p {
   text-align: center;
 }
 
-
-.Customer-Reviews{
+.Customer-Reviews {
   line-height: 55px;
   margin-top: 125px;
   text-align: center;
   font-size: 17px;
 }
 
-
-
-.Reviews-boxes{
+.Reviews-boxes {
   padding: 92px;
-  background-color:#f8f6f3 ;
+  background-color: #f8f6f3;
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 55px;
 }
-.box5{
+.box5 {
   box-shadow: 0 0 3px #e9dddd;
-background-color: white;
+  background-color: white;
   height: 330px;
   width: 344px;
   border-radius: 8px;
 }
-.star{
+.star {
   margin-top: 62px;
   display: flex;
   justify-content: center;
 }
-.star img{
+.star img {
   height: 22px;
   width: 22px;
 }
-#center{
+#center {
   background-image: url(https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2019/06/sydney-rae-668606-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -305,28 +302,26 @@ background-color: white;
   height: 379px;
   width: 400px;
   text-align: center;
-  color:white;
+  color: white;
 }
-#center h1{
+#center h1 {
   margin-top: 118px;
   font-size: 40px;
 }
-#center:hover{
+#center:hover {
   /* opacity: 0.2; */
-  
 }
-.box5 p{
+.box5 p {
   margin-top: 36px;
   padding: 0px 29px;
 }
 
-.flex{
+.flex {
   margin-top: 22px;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  
 }
-.flex p{
+.flex p {
   margin-top: 21px;
 }
