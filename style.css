@@ -296,6 +296,25 @@ background-color: white;
   height: 22px;
   width: 22px;
 }
+#center{
+  background-image: url(https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2019/06/sydney-rae-668606-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1.1;
+  margin-top: -50px;
+  height: 379px;
+  width: 400px;
+  text-align: center;
+  color:white;
+}
+#center h1{
+  margin-top: 118px;
+  font-size: 40px;
+}
+#center:hover{
+  /* opacity: 0.2; */
+  
+}
 .box5 p{
   margin-top: 36px;
   padding: 0px 29px;
