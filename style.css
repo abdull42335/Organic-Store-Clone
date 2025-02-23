@@ -24,6 +24,9 @@
     left: 116px;
     flex-direction: column;
   }
+  .left img{
+    width: 200px;
+  }
   .right {
     visibility: hidden;
   }
@@ -154,14 +157,22 @@
 }
 .left img {
   height: 120px;
-  width: 20vh;
+  width: 214px;
 }
 .left ul {
   display: flex;
   margin-left: 32px;
 }
 .left li {
+  color: black;
+  cursor: pointer;
   margin-right: 23px;
+  transition: all 0.3s ease;
+}
+.left li:hover{
+  transform: scale(1.1);
+  color: #6a9739;
+
 }
 
 .right {
@@ -174,7 +185,14 @@
   margin-right: 52px;
 }
 .right li {
+  color: black;
+  cursor: pointer;
   margin-right: 12px;
+  transition: all 0.3s ease;
+}
+.right li:hover{
+  transform: scale(1.1);
+color: #6a9739;
 }
 .right span {
   color: #8bc34a;
@@ -235,6 +253,11 @@
   color: white;
   font-size: 14px;
   line-height: 7rem;
+  transition: all 0.3s ease;
+}
+.right-2 span:hover{
+background-color: #8bc34a
+;
 }
 
 /* boxes starting */
@@ -253,6 +276,10 @@
   height: 117px;
   width: 279px;
   justify-content: center;
+  transition: all 0.3s ease;
+}
+.box1:hover{
+  transform: scale(1.1);
 }
 .box1 h3 {
   color: white;
@@ -285,10 +312,15 @@
   justify-content: center;
 }
 .box2 {
+  cursor: pointer;
   padding: 8px;
 
   height: 435px;
   width: 318px;
+  transition: all 0.3s ease;
+}
+.box2:hover{
+  transform: scale(1.1);
 }
 .box2 p,
 h4,
@@ -322,6 +354,10 @@ p {
   width: 374px;
   margin-left: 29px;
   padding: 49px;
+  transition: all 0.3s ease;
+}
+.box3:hover{
+transform: scale(0.9);
 }
 
 .box3 p {
@@ -333,11 +369,15 @@ p {
 }
 .box3 span {
   padding: 11px 22px;
+
   background-color: #6a9739;
   color: white;
-  /* font-weight: 600; */
   line-height: 76px;
   border-radius: 3px;
+  transition: all 0.3s ease;
+}
+.box3 span:hover{
+  background-color: #8bc34a;
 }
 .box3 svg {
   height: 11px;
@@ -364,6 +404,10 @@ p {
   background-color: #6a9739;
   padding: 11px 32px;
   border-radius: 4px;
+  transition: all 0.3s ease;
+}
+.purchase span:hover{
+  background-color: #8bc34a;
 }
 .Try {
   background-color: #f8f6f3;
@@ -388,10 +432,15 @@ p {
   justify-content: center;
 }
 .box4 {
+  margin-top: 23px;
   padding: 8px;
 
   height: 435px;
   width: 318px;
+  transition: all 0.3s ease;
+}
+.box4:hover{
+  transform: scale(1.1);
 }
 .box4 p,
 h4,
@@ -407,6 +456,7 @@ p {
 }
 
 .Reviews-boxes {
+  margin-top: 23px;
   padding: 92px;
   background-color: #f8f6f3;
   display: flex;
@@ -420,6 +470,7 @@ p {
   height: 330px;
   width: 344px;
   border-radius: 8px;
+  overflow: hidden;
 }
 .star {
   margin-top: 62px;
@@ -435,22 +486,46 @@ p {
   background-image: url(https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2019/06/sydney-rae-668606-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+background-color: black;
+
   margin-top: -50px;
-  height: 379px;
-  width: 400px;
+  height: 400px;
+  width: 372px;
   text-align: center;
   color: rgb(255, 255, 255);
+  
+  transition: all 0.3s ease;
+
+ 
+  
 }
 #center h1 {
   margin-top: 118px;
   font-size: 40px;
 }
 #center:hover {
-  opacity: 1.1;
+  font-size: 18px;
+  color: black;
+  opacity: 0.8;
+
+  transform: translateY(20px);
 }
+
 .box5 p {
   margin-top: 36px;
   padding: 0px 29px;
+  font-weight: 600;
+}
+.box5 span{
+  background-color: #6a9739;
+  padding: 11px 25px;
+  border-radius: 6px;
+  line-height: 65px;
+  transition: all 0.3s ease;
+}
+.box5 span:hover{
+  color: #f3f3f3;
+  background-color: #8bc34a;
 }
 
 .flex {
@@ -476,6 +551,11 @@ p {
   height: 100px;
   width: 210px;
   margin-top: 38px;
+  transition: all 0.3s ease;
+}
+.box6:hover{
+  transform: scale(1.1
+  );
 }
 .box6 h1 {
   text-align: center;
@@ -551,10 +631,15 @@ p {
   background-color: black;
   color: white;
   padding: 54px 0px;
+  cursor: pointer;
 }
 
 .right-3 img {
   height: 18px;
   width: 18px;
   margin-left: 12px;
+  transition: all 0.3s ease;
+}
+.right-3 img:hover{
+  transform: scale(1.1);
 }
