@@ -8,9 +8,16 @@
   list-style: none;
   font-family: sans-serif;
 }
-@media screen and (max-width: 248px) {
-  .header {
+.MAX_CONTAINER{
+  max-width: 1440px;
+  margin: 0px auto;
+}
+@media screen and (max-width: 230px) {
+  body {
+    background-color: #f8f6f3;
+  }
 
+  .header {
   }
   .left {
     position: relative;
@@ -21,40 +28,117 @@
     visibility: hidden;
   }
   .container-1 {
-    display: flex;
-    flex-direction: column-reverse;
     flex-wrap: wrap;
   }
+  
   .left-2 img {
     width: 525px;
   }
   .right-2 {
     text-align: center;
-    margin-left: 108px;
+    margin-left: 177px;
   }
   .boxes {
-   
     flex-wrap: wrap;
-    margin-left: -154px;
+    margin-left: -174px;
     position: relative;
-    left: 288px;
-  
+    left: 296px;
   }
-  .headingproducts{
+  .headingproducts {
     width: 644px;
-    }
+  }
   .boxes-2 {
-    
     flex-wrap: wrap;
     width: 614px;
-    
   }
-  .Main-vegetable{
-   flex-wrap: wrap;
+  .Main-vegetable {
+    flex-wrap: wrap;
+    margin-left: 308px;
+  }
+  .image {
+    margin-right: 1170px;
+  }
+  /* Vegetable box Done */
 
+  .purchase {
+    width: 569px;
+    margin-top: 70px;
+    text-align: center;
+    flex-wrap: wrap;
+    height: 227px;
+    border-radius: 12px;
+    margin-left: 49px;
   }
+  .purchase span {
+    margin-top: -838px;
+  }
+  .Try h2 {
+    width: 249px;
+    margin-left: 182px;
+  }
+  /* Trending box starting */
+  .Trendingproduct{
+    width: 651px;
+  }
+  .boxes-Trending{
+    flex-wrap: wrap;
+    width: 657px;
+  }
+
+
+  /* Customer Reviews */
+  .Customer-Reviews{
+    width: 651px;
+  }
+  .Reviews-boxes{
+    flex-wrap: wrap;
+    width: 662px;
+  }
+  .box5{
+    margin: 38px;
+  }
+  /* Done */
+
+  /* LOGO BOX STARTING*/
+  .logoboxes{
+    flex-wrap: wrap;
+    width: 420px;
+    margin-left: 132px;
+  }
+  /* DONE */
+
+  /* FOOTER STARTING */
+  .footerblack{
+    flex-wrap: wrap;
+    width: 517px;
+    margin-left: 84px;
+   
+  }
+  .box7 img{
+    margin-left: 55px;
+  }
+  .box7 p{
+    width: 234px;
+    margin-left: 102px;
+  }
+  /* DONE */
+
+  /* Footer last */
+  .footerlast{
+    flex-wrap: wrap;
+    height: 234px;
+    width: 517px;
+    margin-left: 84px;
+  }
+  .right-3{
+    margin-top:-1427px;
+  }
+  }
+
+
+ 
   
-}
+
 /* navbar  */
 .header {
   box-shadow: 0 0 12px #f3f3f3;
@@ -62,8 +146,6 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  
- 
 }
 .left {
   margin-left: 42px;
@@ -115,11 +197,19 @@
   margin-top: 80px;
   display: flex;
   flex-direction: row;
-  /* justify-content: space-between; */
-  gap: 121px;
+  justify-content: space-between;
+  gap: 160px;
   align-items: center;
-  margin-left: 90px;
-  margin-right: 90px;
+  /* margin-left: 90px;
+  margin-right: 90px; */
+}
+.left-2 img{
+  width: 600px;
+  height: 556px;
+  margin-left: 74px;
+}
+.right-2{
+  margin-right: 57px;
 }
 .right-2 h5 {
   font-family: "Merriweather", serif;
@@ -136,6 +226,7 @@
   font-size: 16px;
   margin-top: 18px;
   line-height: 23px;
+  text-align: justify;
 }
 .right-2 span {
   padding: 14px 44px;
@@ -155,7 +246,6 @@
   align-items: center;
   justify-content: center;
   padding: 52px;
-
 }
 .box1 {
   border-radius: 3px;
@@ -317,7 +407,6 @@ p {
 }
 
 .Reviews-boxes {
- 
   padding: 92px;
   background-color: #f8f6f3;
   display: flex;
@@ -450,25 +539,22 @@ p {
   margin-top: 30px;
 }
 
-
 /* lastfooter */
 
-.footerlast{
+.footerlast {
   border-top: 1px solid #443e3e;
   display: flex;
   flex-direction: row;
   justify-content: center;
- gap: 812px;
+  gap: 812px;
   align-items: center;
   background-color: black;
   color: white;
   padding: 54px 0px;
 }
 
-
-.right-3 img{
+.right-3 img {
   height: 18px;
   width: 18px;
   margin-left: 12px;
-  
 }
