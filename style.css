@@ -11,7 +11,20 @@
 .MAX_CONTAINER{
   max-width: 1440px;
   margin: 0px auto;
+  animation:  boxstyle 1s linear;
 }
+@keyframes footer {
+  from{
+    opacity:0 ;
+    scale: 0.5;
+  }
+  to{
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+/* Media Querry */
 @media screen and (max-width: 230px) {
   body {
     background-color: #f8f6f3;
@@ -209,9 +222,22 @@ color: #6a9739;
 /* navbar done */
 /* ________________________________ */
 
+@keyframes boxstyle {
+  from{
+    opacity: 0;
+    /* scale: 0.5; */
+   transform: translateX(-100px);
+  }
+  to{
+    opacity: 1;
+    /* scale: 1; */
+    transform: translateX(0px);
+  }
+}
 /* Hero-Section-1 Start */
 
 .container-1 {
+ 
   margin-top: 80px;
   display: flex;
   flex-direction: row;
@@ -220,6 +246,10 @@ color: #6a9739;
   align-items: center;
   /* margin-left: 90px;
   margin-right: 90px; */
+
+}
+.left-2{
+
 }
 .left-2 img{
   width: 600px;
@@ -262,6 +292,7 @@ background-color: #8bc34a
 
 /* boxes starting */
 .boxes {
+  
   background-color: black;
   display: flex;
   flex-direction: row;
@@ -271,6 +302,8 @@ background-color: #8bc34a
   padding: 52px;
 }
 .box1 {
+  /* animation: style  linear; */
+ 
   border-radius: 3px;
   background-color: #303030;
   height: 117px;
@@ -299,12 +332,16 @@ background-color: #8bc34a
 /* Ending boxes */
 
 .headingproducts {
+
   line-height: 55px;
   margin-top: 125px;
   text-align: center;
   font-size: 17px;
 }
 .boxes-2 {
+  animation:  footer  linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
   margin-top: 71px;
   display: flex;
   flex-direction: row;
@@ -312,6 +349,7 @@ background-color: #8bc34a
   justify-content: center;
 }
 .box2 {
+
   cursor: pointer;
   padding: 8px;
 
@@ -347,6 +385,9 @@ p {
   margin-top: -24px;
 }
 .box3 {
+  animation:  footer  linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
   background-color: white;
   margin-top: 213px;
   border-radius: 4px;
@@ -391,6 +432,9 @@ transform: scale(0.9);
 }
 
 .purchase {
+  animation:  footer linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
   color: white;
   background-color: black;
   display: flex;
@@ -410,6 +454,9 @@ transform: scale(0.9);
   background-color: #8bc34a;
 }
 .Try {
+  animation:  footer  linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
   background-color: #f8f6f3;
   padding: 24px;
 }
@@ -426,6 +473,9 @@ transform: scale(0.9);
 }
 
 .boxes-Trending {
+  animation:  footer  linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
   display: flex;
   flex-direction: row;
   gap: 23px;
@@ -456,6 +506,9 @@ p {
 }
 
 .Reviews-boxes {
+  animation:  footer  linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
   margin-top: 23px;
   padding: 92px;
   background-color: #f8f6f3;
@@ -540,6 +593,9 @@ background-color: black;
 
 /* LOGO-BOXES */
 .logoboxes {
+  animation:  footer  linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
   padding: 22px;
   background-color: #f8f6f3;
   display: flex;
@@ -564,6 +620,9 @@ background-color: black;
 }
 
 .footerblack {
+  animation: footer  linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
   display: flex;
   flex-direction: row;
   gap: 66px;
