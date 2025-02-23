@@ -13,6 +13,7 @@
   margin: 0px auto;
   animation:  boxstyle 1s linear;
 }
+/* ANIMATION */
 @keyframes footer {
   from{
     opacity:0 ;
@@ -33,6 +34,7 @@
   .header {
   }
   .left {
+    
     position: relative;
     left: 116px;
     flex-direction: column;
@@ -48,9 +50,12 @@
   }
   
   .left-2 img {
+    
     width: 525px;
   }
   .right-2 {
+   
+    order: 1;
     text-align: center;
     margin-left: 177px;
   }
@@ -292,7 +297,9 @@ background-color: #8bc34a
 
 /* boxes starting */
 .boxes {
-  
+  animation:  footer  linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
   background-color: black;
   display: flex;
   flex-direction: row;
@@ -302,7 +309,9 @@ background-color: #8bc34a
   padding: 52px;
 }
 .box1 {
-  /* animation: style  linear; */
+ animation:  footer  linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
  
   border-radius: 3px;
   background-color: #303030;
