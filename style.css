@@ -311,16 +311,15 @@ background-color: #8bc34a
   padding: 52px;
 }
 .box1 {
- animation:  footer  linear;
-  animation-timeline: view();
-  animation-range: entry 0% cover 40%;
- 
-  border-radius: 3px;
-  background-color: #303030;
-  height: 117px;
-  width: 279px;
-  justify-content: center;
-  transition: all 0.3s ease;
+     animation: footerlinear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+    border-radius: 3px;
+    background-color: #303030;
+       height: 120px;
+    width: 295px;
+    transition: all 0.3s ease;
+    border-radius: 6px;
 }
 .box1:hover{
   transform: scale(1.1);
@@ -335,10 +334,10 @@ background-color: #8bc34a
   text-align: center;
 }
 .box1 img {
-  position: relative;
-  top: 34px;
-  left: 25px;
-  height: 37px;
+    position: relative;
+    top: 33px;
+   left: 33px;
+    height: 32px;
 }
 /* Ending boxes */
 
